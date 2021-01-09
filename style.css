@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 40vh;
+  height: 40px;
+  width: 110px;
+}
+
+button:hover { 
+  cursor: pointer;
+  transform: scale(1.1);
+}
